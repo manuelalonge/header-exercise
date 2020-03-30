@@ -1,5 +1,7 @@
+// Test
 console.log('index.js works');
 
+// Opens navbar hamburger
 function myFunction(y) {    
     var x = document.getElementById("myLinks");     
     if (x.style.display === "block") {
@@ -9,6 +11,8 @@ function myFunction(y) {
         y.classList.toggle("change");
     }
 }
+
+// Changes navbar background color on mouse scroll
 
 $(function () {
     $(window).on("scroll", function () {

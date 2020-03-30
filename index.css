@@ -1,3 +1,5 @@
+/*Header main styles */
+
 .header {
     position: fixed;
     top: 0;
@@ -12,6 +14,8 @@
     height: auto;
     background-color: transparent;
 }
+
+/*Navbar wrapper styles */
 
 .wrapper {
     max-width: 1320px;
@@ -71,10 +75,19 @@
     color: black;
 }
 
-.contact>a>img {
+/* Background color of the header on mouse scroll */
+
+.active {
+    background-color: #1a90d0;
+}
+
+.contact>a>img, .logo {
     width: 80px;
 }
 
-.active {
-    background-color: yellowgreen;
+.history {
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    padding: 20px;
 }
